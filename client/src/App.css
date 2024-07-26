@@ -11,10 +11,11 @@ html {
 .app-container {
   width: 100vw;
   min-height: 100vh;
-  display: flex;
+  display: flex; 
   /* justify-content: center; */
   flex-direction: column;
   align-items: center;
+  background: linear-gradient(135deg,rgba(96, 35, 209, 0.86), rgba(86, 134, 216, 0.833));
 }
 
 /* Navbar styles */
@@ -29,6 +30,11 @@ html {
   width: 100%;
   height: 60px;
 }
+
+.navbar .finance{
+  margin: auto;
+}
+
 .sign-in-container {
   margin-top: 300px;
 }

@@ -11,7 +11,8 @@ function App() {
     <Router>
       <div className="app-container">
         <div className="navbar">
-          <Link to="/"> Dashboard</Link>
+          <h1 className="finance">Financer</h1>
+          <Link to="/"> Dashboard</Link> 
           <SignedIn>
             <UserButton />
           </SignedIn>

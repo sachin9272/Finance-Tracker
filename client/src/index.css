@@ -7,7 +7,7 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
-  font-synthesis: none;
+  font-synthesis: none; 
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -52,6 +52,15 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.dashboard-container .monthly{
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  border-bottom: 3px solid rgb(83, 255, 45);
+  display: block;
+  width: 40%;
 }
 
 @media (prefers-color-scheme: light) {
